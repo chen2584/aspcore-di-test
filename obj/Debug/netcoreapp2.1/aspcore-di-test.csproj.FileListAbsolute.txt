@@ -1,0 +1,14 @@
+/Users/chen/MyWork/Dotnet/aspcore-di-test/bin/Debug/netcoreapp2.1/aspcore-di-test.deps.json
+/Users/chen/MyWork/Dotnet/aspcore-di-test/bin/Debug/netcoreapp2.1/aspcore-di-test.runtimeconfig.json
+/Users/chen/MyWork/Dotnet/aspcore-di-test/bin/Debug/netcoreapp2.1/aspcore-di-test.runtimeconfig.dev.json
+/Users/chen/MyWork/Dotnet/aspcore-di-test/bin/Debug/netcoreapp2.1/aspcore-di-test.dll
+/Users/chen/MyWork/Dotnet/aspcore-di-test/bin/Debug/netcoreapp2.1/aspcore-di-test.pdb
+/Users/chen/MyWork/Dotnet/aspcore-di-test/obj/Debug/netcoreapp2.1/aspcore-di-test.csprojAssemblyReference.cache
+/Users/chen/MyWork/Dotnet/aspcore-di-test/obj/Debug/netcoreapp2.1/aspcore-di-test.csproj.CoreCompileInputs.cache
+/Users/chen/MyWork/Dotnet/aspcore-di-test/obj/Debug/netcoreapp2.1/aspcore-di-test.RazorAssemblyInfo.cache
+/Users/chen/MyWork/Dotnet/aspcore-di-test/obj/Debug/netcoreapp2.1/aspcore-di-test.RazorAssemblyInfo.cs
+/Users/chen/MyWork/Dotnet/aspcore-di-test/obj/Debug/netcoreapp2.1/aspcore-di-test.AssemblyInfoInputs.cache
+/Users/chen/MyWork/Dotnet/aspcore-di-test/obj/Debug/netcoreapp2.1/aspcore-di-test.AssemblyInfo.cs
+/Users/chen/MyWork/Dotnet/aspcore-di-test/obj/Debug/netcoreapp2.1/aspcore-di-test.RazorTargetAssemblyInfo.cache
+/Users/chen/MyWork/Dotnet/aspcore-di-test/obj/Debug/netcoreapp2.1/aspcore-di-test.dll
+/Users/chen/MyWork/Dotnet/aspcore-di-test/obj/Debug/netcoreapp2.1/aspcore-di-test.pdb
