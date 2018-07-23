@@ -8,7 +8,7 @@ namespace aspcore_di_test.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [My]
+    [BasicAuthorize]
     public class ValuesController : ControllerBase
     {
         // GET api/values
