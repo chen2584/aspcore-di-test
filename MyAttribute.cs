@@ -9,25 +9,25 @@ public class MyAttribute : TypeFilterAttribute
     {
         Arguments = new object[] { ids = "12345" };
     }
+}
 
-    private class BasicAuthorize : IAuthorizationFilter
+public class BasicAuthorize : IAuthorizationFilter
+{
+    private readonly IConfiguration configuration;
+    private readonly MyService myServicee;
+    private readonly string ids;
+
+    public BasicAuthorize(IConfiguration configuration, MyService myService, string ids)
     {
-        private readonly IConfiguration configuration;
-        private readonly MyService myServicee;
-        private readonly string ids;
+        this.configuration = configuration;
+        this.myServicee = myService;
+        this.ids = ids;
+    }
 
-        public BasicAuthorize(IConfiguration configuration, MyService myService, string ids)
-        {
-            this.configuration = configuration;
-            this.myServicee = myService;
-            this.ids = ids;
-        }
-
-        public void OnAuthorization(AuthorizationFilterContext context)
-        {
-            string result = "configuration is null: " + configuration.GetValue("Test", "");
-            //string result = "Random Number is " + myServicee.num;
-            context.Result = new OkObjectResult(result);
-        }
+    public void OnAuthorization(AuthorizationFilterContext context)
+    {
+        string result = "configuration is null: " + configuration.GetValue("Test", "");
+        //string result = "Random Number is " + myServicee.num;
+        context.Result = new OkObjectResult(result);
     }
 }
